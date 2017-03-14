@@ -1,0 +1,298 @@
+body{
+	background: #d4e4f5;}
+
+.mian{
+	width: 10rem;
+	
+}
+.banner{
+	position: relative;
+	height: 10rem;
+	width: 10rem;
+	overflow: hidden;
+}
+.banner-box{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 30rem;
+	/*border: 1px solid red;*/
+}
+.banner-pic{
+	height:10rem;
+	width: 10rem;
+	float: left;
+}
+.banner-pic>img{
+	height:10rem;
+	width: 10rem;
+}
+.goods,.pingjia,.shop,.m-nav{
+	display: flex;
+	background: #fff;
+}
+.goods{
+	flex-direction: column;
+	padding: 0.3rem;
+
+}
+.g-des{
+	font-size: 0.44rem;
+}
+.g-price{
+	display: flex;
+}
+.new-pri{
+	font-size: 0.55rem;
+	color: orangered;
+}
+.pri-lit{
+	font-size: 0.4rem;
+}
+.wom,.gold{
+	/*display: block;*/
+	font-size: 10px;
+	padding:0 0.01rem;
+	border-radius: 3px;
+}
+.wom{
+	margin: 0.2rem 0 0 0.2rem;
+	color: orangered;
+	border:1px solid orangered;
+}
+.gold{
+	margin: 0.2rem 0 0 0.1rem;
+	color: gold;
+	border: 1px solid gold;
+}
+.o-price,.post ,.prom{
+	font-size: 0.3rem;
+	color:#999999;
+}
+.thr{
+	text-decoration: line-through;
+}
+.post{
+	margin-top: 0.05rem;
+	display: flex;
+	justify-content: space-between;
+}
+.eate{
+	display: flex;
+	margin:0.6rem 0;
+}
+.eat-pic img{
+	height:0.8rem;
+}
+.eat-tex{
+	line-height: 0.8rem;
+	font-size: 0.44rem;
+	margin-left: 0.3rem;
+}
+.prom{
+	display: flex;
+	justify-content: space-between;
+}
+.prom-l{
+	display: flex;
+	/*justify-content: flex-start;*/
+}
+.pro-l{
+	margin-right: 0.4rem;
+	display: flex;
+}
+.pro-l img{
+	height:0.35rem;
+	width: 0.35rem;
+	margin-right: 0.08rem;
+}
+.pingjia{
+	padding: 0.3rem;
+	margin-top: 0.3rem;
+	flex-direction: column;
+}
+.p-title,.p-pers{
+	font-size: 0.35rem;
+}
+.p-intr{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.p-intr>div{
+	font-size: 0.3rem;
+	margin: 0.2rem  0.2rem 0 0;
+	padding: 0.1rem;
+	background: #ffefef;
+	border-radius: 0.2rem;
+}
+.p-pers{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	display: flex;
+}
+.p-pers-hed>img{
+	height: 0.5rem;
+	border-radius: 50%;
+	margin-right: 0.2rem;
+}
+.hrt1{
+	margin-left: 0.1rem;
+}
+.hrt img{
+	height: 14px;
+}
+.p-pers-des{
+	font-size: 0.3rem;
+}
+.p-all{
+	display: flex;
+	justify-content: center;
+	
+}
+.p-all p,.enter p{
+	margin:0.3rem 0;
+	font-size: 0.35rem;
+	color: orangered;
+	padding: 0.05rem 0.2rem;
+	border:1px solid orangered;
+	border-radius: 0.1rem
+}
+.shop{
+	margin-top: 1px;
+	padding: 0.3rem;
+	flex-direction: column;;
+}
+.shop-name{
+	display: flex;
+}
+.s-pic img{
+	height: 1.2rem;
+	width: 1.2rem;
+	border:1px solid gray;
+	margin-right: 0.2rem;
+}
+.s-name{
+	/*height: 1.2rem;*/
+	display: flex;
+	flex-direction: column;
+}
+.name-top{
+	/*height: 50%;*/
+	font-size: 0.44rem;
+	line-height: 0.5rem;
+	margin-bottom: 0.3rem;
+}
+.cor span{
+	display: inline-block;
+	height: 14px;
+	width: 14px ;
+	background: url(../img/goods/huangguan.png) no-repeat;
+	background-size: contain;
+	margin-right: 0.05rem;
+}
+.more{
+	display: flex;
+	justify-content: space-around;
+	font-size: 0.3rem;
+	text-align: center;
+	margin:0.2rem 0;
+}
+.all-prod{
+	border-right: 0.5px solid #d4e4f5;
+}
+.enter{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 2rem ;
+}
+.m-nav{
+	display: flex;
+	margin: 0.3rem 0;
+	height: 38px;
+	line-height: 38px;
+	font-size: 0.44rem;
+	justify-content: space-between;
+	padding: 0 0.8rem;
+}
+
+
+
+
+
+.introduce>img{
+	width: 10rem;
+}
+.footer{
+	margin-top: 0.3rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	font-size: 14px;
+	height: 1rem;
+	line-height: 1rem;
+}
+.line{
+	border-left: 1px solid #d4e4f5;
+}
+.copy{
+	margin-top: 1px;
+	height: 2rem;
+	background: #fff;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	padding-top: 0.3rem;
+}
+.foot-nav{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-top: 1px ;
+	display: flex;
+	background: #fff;
+}
+.foot-lt{
+	width: 3rem;
+	height: 1rem;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 0.3rem;
+	border-top: 1px solid #d4e4f5;
+
+}
+.foot-lt p{
+	margin-top: 0;
+	line-height: 0.3rem;
+}
+ .iconfont {
+ 		display: block;
+ 		margin-top: 0.1rem;
+        font-size: 0.3rem;
+
+    }
+.icon-wangwang-{
+        color: #037dff;
+}
+.foot-rt{
+	width: 7rem;
+	height: 1rem;
+}
+
+.foot-rt{
+	display: flex;
+}
+.foot-rt div{
+	line-height: 1rem;
+	width: 50%;height: 100%;
+	text-align: center;
+	font-size: 0.4rem;
+	color:#fff;
+}
+.push-in{
+	background: #ff9402;
+}
+.buy{
+	background: #ff5000;
+}
